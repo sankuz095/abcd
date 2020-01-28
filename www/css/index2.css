@@ -50,8 +50,8 @@ label {
 }
     
 .main {
-    margin: 100px auto;
-    width: 400px;
+    margin: 70px auto;
+    max-width: 80%;
 }
 
 .header {

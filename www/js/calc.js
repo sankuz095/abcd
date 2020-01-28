@@ -18,7 +18,7 @@ function calc() {
         key=1
     }
 
-    let q = h.value * w.value * l.value / 1000000;
+    let q = h.value * w.value * l.value / 1000000000;
 
     let ct = `<b>Цемент:</b> ${Number(cements[key]*q).toFixed(1)}, кг`;
     let st = `<b>Песок:</b> ${Number(sands[key]*q).toFixed(1)}, кг`;
